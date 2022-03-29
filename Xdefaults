@@ -1,0 +1,266 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!                                                        !
+! AUTHOR: Rahul Martim Juliato (rahul.juliato@gmail.com) !
+! DATE  : ter jan 30 20:09:49 -02 2018                   !
+!                                                        !
+! My .Xdefaults  configuration file                      !
+!                                                        !
+! After any change here, run: xrdb -merge ~/.Xdefaults   !
+!                                                        !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![ xterm ]
+!xterm*termName: xterm-256color
+xterm*termName: xterm
+!xterm*termName: xterm-16color
+!xterm*locale: true
+xterm*metaSendsEscape: true
+xterm*saveLines: 4096
+xterm*utf8: 1
+XTerm*faceName: terminus
+!xterm*faceName: DejaVu Sans Mono Book
+!xterm*faceName: Monospace
+!xterm*faceName: Liberation Mono
+xterm*faceSize: 16 
+!xterm*boldColors: true
+!XTerm*colorBDMode: false
+!XTerm*VT100.colorBD:  blue
+!XTerm*colorULMode:  false
+!XTerm*VT100.colorUL:  magenta
+!xterm*alwaysBoldMode: true
+XTerm*colorMode:  on
+XTerm*dynamicColors:  on
+XTerm*underLine:  off
+
+!xterm*background:  #1c1c1c
+!xterm*foreground:  #b4b4b4
+! black
+! xterm*color0:      #000000
+! xterm*color8:      #555753
+! red
+! xterm*color1:      #9e1828
+! xterm*color1:      #b6212d
+!xterm*color9:      #ff6565
+! green
+!xterm*color2:      #4c8d00
+!xterm*color10:     #7fc862
+!xterm*color10:     #6bbe1a
+
+! yellow
+!xterm*color3:      #ff8040
+!xterm*color11:     #e6d51d
+! blue
+!xterm*color4:      #204a87
+!xterm*color12:     #9370bd
+
+! magenta
+!xterm*color5:      #963c59
+!xterm*color13:     #cf9ebe
+!xterm*color13:     #d3649f
+
+! cyan
+!xterm*color6:      #105952
+!xterm*color14:     #71bebe
+!xterm*color14:     #177f75
+
+! white
+!xterm*color7:      #bebebe
+!xterm*color15:     #ffffff
+
+
+!XTerm*color0: black
+!XTerm*color1: red
+!XTerm*color2: green
+!XTerm*color3: yellow
+!XTerm*color4: blue
+!XTerm*color5: magenta
+!XTerm*color6: cyan
+!XTerm*color7: gray
+!XTerm*color8: gray
+!XTerm*color9: red
+!!XTerm*color10: bold green
+!XTerm*color11: bold yellow
+!XTerm*color12: bold blue
+!XTerm*color13: bold magenta
+!XTerm*color14: bold cyan
+!XTerm*color15: bold white
+!XTerm*colorUL: bold yellow
+!XTerm*colorBD: bold white
+
+
+! Changed the colors do .dircolors
+! also made an entry to source it
+! on .bashrc
+
+xterm*background: rgb:00/00/00
+!xterm*foreground: rgb:ff/ff/ff
+!xterm*foreground: rgb:2d/5b/f9
+xterm*foreground: white
+!xterm*foreground: green
+!xterm*color0:     rgb:00/00/00
+!xterm*color1:     rgb:d3/62/65
+!xterm*color2:     rgb:ae/ce/91
+!xterm*color3:     rgb:e7/e1/8c
+!xterm*color4:     rgb:7a/7a/b0
+!xterm*color5:     rgb:96/3c/59
+!xterm*color6:     rgb:41/81/79
+!xterm*color7:     rgb:be/be/be
+!xterm*color8:     rgb:66/66/66
+!xterm*color9:     rgb:ef/81/71
+!xterm*color10:    rgb:e5/f7/79
+!xterm*color11:    rgb:ff/f7/96
+!xterm*color12:    rgb:41/86/be
+!xterm*color13:    rgb:ef/9e/be
+!xterm*color14:    rgb:71/be/be
+!xterm*color15:    rgb:ff/ff/ff
+XTerm*pointerColor: white
+XTerm*pointerColorBackground: black
+XTerm*cursorColor: blue
+xterm*cursorBlink: false
+xterm*selectToClipboard: true
+xterm*ScrollBar: false
+xterm*ScrollKey: true
+xterm*bellIsUrgent: true
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![ xbiff ]
+xbiff*checkCommand: ~/scripts/checkmail
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![ xosview ]
+xosvstipple*enableStipple:	True
+xosvstipple*loadWarnColor:	red
+xosvstipple*loadProcColor:	red
+xosvstipple*loadIdleColor:	red
+xosvstipple*cpuUserColor:       red
+xosvstipple*cpuNiceColor:       red
+xosvstipple*cpuSystemColor:     red
+xosvstipple*cpuInterruptColor:  red
+xosvstipple*cpuSInterruptColor: red
+xosvstipple*cpuFreeColor:       red
+xosvstipple*cpuGuestColor:      red
+xosvstipple*cpuStolenColor:     red
+xosvstipple*memUsedColor:	orange
+xosvstipple*memSharedColor:	orange
+xosvstipple*memBufferColor:	orange
+xosvstipple*memSlabColor:	orange
+xosvstipple*memPTColor:         orange
+xosvstipple*memCacheColor:	orange
+xosvstipple*memFreeColor:	orange
+xosvstipple*memTextColor:	orange
+xosvstipple*memOtherColor:	orange
+xosvstipple*memActiveColor:	orange
+xosvstipple*memInactiveColor:	orange
+xosvstipple*swapUsedColor:	yellow
+xosvstipple*swapFreeColor:	yellow
+xosvstipple*netInColor:		green
+xosvstipple*netOutColor:	green
+xosvstipple*netBackground:	green
+xosvstipple*serialOnColor:	red
+xosvstipple*serialOffColor:	aquamarine
+xosvstipple*intOnColor:		red
+xosvstipple*intOffColor:	aquamarine
+xosvstipple*diskUsedColor:	blue
+xosvstipple*diskIdleColor:	blue
+xosvstipple*pageInColor:	purple
+xosvstipple*pageOutColor:	purple
+xosvstipple*pageIdleColor:	purple
+
+xosvstipplebw*meterLabelColor:  black
+xosvstipplebw*usedLabelColor:   black
+xosvstipplebw*background:       white
+xosvstipplebw*foreground:       black
+xosvstipplebw*enableStipple:	True
+xosvstipplebw*loadWarnColor:    black
+xosvstipplebw*loadProcColor:    black
+xosvstipplebw*loadIdleColor:    black
+xosvstipplebw*cpuUserColor:	black
+xosvstipplebw*cpuNiceColor:	black
+xosvstipplebw*cpuSystemColor:	black
+xosvstipplebw*cpuInterruptColor:black
+xosvstipplebw*cpuSInterruptColor:black
+xosvstipplebw*cpuFreeColor:	black
+xosvstipplebw*cpuGuestColor:	black
+xosvstipplebw*cpuStolenColor:	black
+xosvstipplebw*memUsedColor:	black
+xosvstipplebw*memSharedColor:	black
+xosvstipplebw*memBufferColor:	black
+xosvstipplebw*memSlabColor:	black
+xosvstipplebw*memPTColor:       black
+xosvstipplebw*memCacheColor:	black
+xosvstipplebw*memFreeColor:	black
+xosvstipplebw*memTextColor:	black
+xosvstipplebw*memOtherColor:	black
+xosvstipplebw*memActiveColor:	black
+xosvstipplebw*memInactiveColor: black
+xosvstipplebw*swapUsedColor:    black
+xosvstipplebw*swapFreeColor:    black
+xosvstipplebw*netInColor:       black
+xosvstipplebw*netOutColor:      black
+xosvstipplebw*netBackground:    black
+xosvstipplebw*serialOnColor:    black
+xosvstipplebw*serialOffColor:   white
+xosvstipplebw*intOnColor:       black
+xosvstipplebw*intOffColor:      white
+xosvstipplebw*diskUsedColor:	black
+xosvstipplebw*diskIdleColor:	black
+xosvstipplebw*pageInColor:	black
+xosvstipplebw*pageOutColor:	black
+xosvstipplebw*pageIdleColor: black
+
+
+
+
+
+! MWM Resources  --  These are only run if you are using the mwm window
+!                    manager.  Run "man mwm" for details.
+
+! Causes icon box to scroll horizontally only
+Mwm*iconBoxSBDisplayPolicy:     horizontal
+! Creates a box to place your icons
+Mwm*useIconBox:	   	 True
+! box
+Mwm*iconBoxGeometry:  	   10x1+160-0
+! titulo
+Mwm*iconBoxTitle:	MWM Icon Manager
+! Sets where the icons will appear (on the screen, or in an icon box if it
+! exists)
+Mwm*iconPlacement:		left top
+! "fades" icon of applications that are active
+Mwm*fadeNormalIcon:	       	    True
+! Causes whatever your pointer is over to become the active application
+Mwm*keyboardFocusPolicy:       pointer
+! Causes all border and title decoration to appear on xclock applications
+Mwm*XClock.clientDecoration:  +all
+! Causes all border and title decoration to appear on xbiff applications
+Mwm*xbiff.clientDecoration:   +all
+! Lets you select by hand the location of a new application (unless a specific
+! location is indicated when you run it)
+Mwm*interactivePlacement:    True
+! Sets a foreground color for every application
+Mwm*foreground:	    	      NavyBlue
+! Sets a background color for every application
+Mwm*background:	    	      CadetBlue
+! Sets a foreground color for the active application
+Mwm*activeForeground:	      White
+! Sets a background color for the active application
+Mwm*activeBackground:	      Blue
+! Sets a foreground color for your menu
+Mwm*menu*foreground:	      White
+! Sets a background color for your menu
+Mwm*menu*background:	      CadetBlue
+! Default font for your application titles
+Mwm*fontList:  	   	      -*-terminus-*-r-normal-*-14-*-*-*-*-*-*-*
+! Default font for your menus
+Mwm*menu*fontList:            -*-terminus-*-r-normal-*-14-*-*-*-*-*-*-*
+! Cause the xclock icon not to show up in the icon box
+Mwm*XClock*clientFunctions:     -minimize
+! Cause the xbiff icon not to show up in the icon box
+Mwm*xbiff*clientFunctions:    -minimize
+! Cause the xload icon not to show up in the icon box
+Mwm*xload*clientFunctions:    -minimize
+! Cause the xosview icon not to show up in the icon box
+Mwm*xosview*clientFunctions:    -minimize
